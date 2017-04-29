@@ -23,6 +23,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
+# inherit from qcom-common
+include device/qcom/common/common.mk
+
 $(call inherit-product-if-exists, vendor/volte/volte.mk)
 $(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
 $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
