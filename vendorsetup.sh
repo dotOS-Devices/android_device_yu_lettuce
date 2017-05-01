@@ -1,0 +1,2 @@
+add_lunch_combo citrus_lettuce-eng
+add_lunch_combo citrus_lettuce-userdebug
