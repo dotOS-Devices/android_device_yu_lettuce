@@ -13,5 +13,5 @@
 # specific language governing permissions and limitations under the License.
 #
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lettuce.mk \
+    $(LOCAL_DIR)/nitrogen_lettuce.mk \
     $(LOCAL_DIR)/full_lettuce.mk
