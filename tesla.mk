@@ -40,3 +40,7 @@ endif
 
 I_WANT_A_QUAIL_STAR=true
 
+PRODUCT_PACKAGES +=  \
+  SnapdragonCamera \
+  SnapdragonMusic \
+  Gallery2

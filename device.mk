@@ -26,3 +26,7 @@ include $(LOCAL_PATH)/product/*.mk
 $(call inherit-product-if-exists, vendor/volte/volte.mk)
 $(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
 $(call inherit-product-if-exists, vendor/yu/lettuce/lettuce-vendor.mk)
+
+# Healthd packages
+ PRODUCT_PACKAGES += \
+ 	charger_res_images
