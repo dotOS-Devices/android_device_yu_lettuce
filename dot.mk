@@ -15,12 +15,12 @@
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
 # Inherit some common BlissROMS stuff.
-$(call inherit-product, vendor/bliss/config/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := bliss_lettuce
+PRODUCT_NAME := dot_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
